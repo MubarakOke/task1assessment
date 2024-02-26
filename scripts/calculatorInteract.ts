@@ -8,6 +8,7 @@ const main = async () => {
     addtx.wait();
 
     const resultAddtx= await Calculator.getAddResult();
+    console.log(resultAddtx)
 }
 
 main().catch((error) => {
