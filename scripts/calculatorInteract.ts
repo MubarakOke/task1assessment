@@ -8,11 +8,11 @@ const main = async () => {
     addtx.wait();
 
     const resultAddtx= await Calculator.getAddResult();
-
-    console.log("result", resultAddtx);
 }
 
 main().catch((error) => {
     console.error(error);
     process.exitCode = 1;
 });
+
+//Transaction HAsh: 0x48a0ec809cc9eba8c7e146daec9e4e4d7135be871a8bb72d630647ddbacfd2a4
